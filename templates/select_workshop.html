@@ -1,0 +1,10 @@
+{% include "header.html" %}
+{% extends "main.html" %}
+{% block content %}
+<h3> Select Workshop in which you want to Service your {{name}} on {{date}}</h3>
+<select id="workshop">
+  <option value="Workshop1">Workshop1</option>
+  <option value="Workshop2">Workshop2</option>
+  <option value="Workshop3">Workshop3</option> 
+</select>
+{%endblock%}
